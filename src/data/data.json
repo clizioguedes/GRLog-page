@@ -1,0 +1,53 @@
+{
+    "Header": {
+
+        "title": "GRLOG TRANSPORTE E LOGÍSTICA",
+        "paragraph": "Transportadora de Cargas especializada em Armazenagem e Distribuição de alimentos."
+
+    },
+    "About": {
+        "paragraph": "A Grlog transportes está há 8 anos no mercado atuando com armazenagem e distribuição de mercadorias. Operando com uma frota própria de 19 veículos entre carretas, caminhão truck e caminhão ¾. Atuando no Rio Grande do Norte e na Paraíba com especialidade em logística de alimentos.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [
+        {
+            "icon": "fa fa-truck",
+            "title": "Frota de Veículos Próprios",
+            "text": "Alguns de nossos veiculos são: VM 270, VW 19.360, MB 1620 e VW 9.170"
+        },
+        {
+            "icon": "fa fa-comments-o",
+            "title": "Logistica Rápida e Segura",
+            "text": "Oferecemos todo o suporte do inicio da Coleta até a entrega"
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "title": "Carga Seca e Fracionada",
+            "text": "Oferecemos o transporte de carga Seca para todo o nordeste e Transporte de Carga Fracionada entre os estados do RN, PB e PE"
+        },
+        {
+            "icon": "fa fa-shield",
+            "title": "Trabalhamos com Cross Docking",
+            "text": "Reduzimos seu Tempo e seus custos oferecendo as melhores formas de transporte"
+        }
+    ]
+}
