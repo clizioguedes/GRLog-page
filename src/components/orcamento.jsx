@@ -50,7 +50,7 @@ export default function Orcamento() {
 
                 <h2>ORÇAMENTO</h2>
                 <p>
-                  PREENCHA OS CAMPOS e Te responderemos por email com todas as informações do orçamento
+                  PREENCHA TODOS OS CAMPOS e Te responderemos por E-mail com todas as informações do orçamento
                   </p>
               </div>
               <form onSubmit={handleOrcamento}>

@@ -1,12 +1,13 @@
 {
     "Header": {
 
-        "title": "GRLOG TRANSPORTE E LOGÍSTICA",
+        "title": "GRLOG",
+        "subtitle": "Transporte e Logística",
         "paragraph": "Transportadora de Cargas especializada em Armazenagem e Distribuição de alimentos."
 
     },
     "About": {
-        "paragraph": "A Grlog transportes está há 8 anos no mercado atuando com armazenagem e distribuição de mercadorias. Operando com uma frota própria de 19 veículos entre carretas, caminhão truck e caminhão ¾. Atuando no Rio Grande do Norte e na Paraíba com especialidade em logística de alimentos.",
+        "paragraph": "A GRLog transportes está há 8 anos no mercado atuando com armazenagem e distribuição de mercadorias. Operando com uma frota própria de 19 veículos entre carretas, caminhão truck e caminhão ¾. Atuando no Rio Grande do Norte e na Paraíba com especialidade em logística de alimentos.",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -21,17 +22,30 @@
         ]
     },
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "RN": {
+            "address": "Rua Adolfo Gordo, 3812, Cidade da Esperança, Natal/RN",
+            "phone": "(84) 3613-0710",
+            "email": "comercial@grlogtrans.com.br"
+        },
+        "PB": {
+            "address": "Rod Br-101 Km 88 Galpão 28, Distrito Industrial. João Pessoa/PB",
+            "phone": "(83) 98827-1234",
+            "email": "comercial@grlogtrans.com.br"
+        },
+        "PE": {
+            "address": "Terceiro Acesso Parque Nacional, 460, Jardim Jordão, Jab. dos Guararapes/PE",
+            "phone": "N/D",
+            "email": "comercial@grlogtrans.com.br"
+        },
         "facebook": "fb.com",
         "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "youtube": "youtube.com",
+        "instagram": "https://instagram.com/grlog_transportes"
     },
     "Features": [
         {
             "icon": "fa fa-truck",
-            "title": "Frota de Veículos Próprios",
+            "title": "Frota Própria",
             "text": "Alguns de nossos veiculos são: VM 270, VW 19.360, MB 1620 e VW 9.170"
         },
         {

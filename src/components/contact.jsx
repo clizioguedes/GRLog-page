@@ -6,67 +6,17 @@ export class Contact extends Component {
       <div>
         <div id="contact">
           <div className="container">
-            <div className="col-md-8">
-              <div className="row">
-                <div className="section-title">
-                  <h2>FALE CONOSCO</h2>
-                  <p>
-                    Fique a vontade para tirar duvidas e se informar sobre vagas para trabalhar conosco
-                  </p>
-                </div>
-                <form name="sentMessage" id="contactForm" noValidate>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          id="name"
-                          className="form-control"
-                          placeholder="Name"
-                          required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          id="email"
-                          className="form-control"
-                          placeholder="Email"
-                          required="required"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <textarea
-                      name="message"
-                      id="message"
-                      className="form-control"
-                      rows="4"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                    <p className="help-block text-danger"></p>
-                  </div>
-                  <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
-                    Send Message
-                  </button>
-                </form>
-              </div>
+            <div className="section-title">
+              <h2>Nossos endereços</h2>
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
               <div className="contact-item">
-                <h3>Informações de Contato</h3>
+              <h3>Rio Grande do Norte</h3>
                 <p>
                   <span>
                     <i className="fa fa-map-marker"></i> Endereço
                   </span>
-                  {this.props.data ? this.props.data.address : "loading"}
+                  {this.props.data ? this.props.data.RN.address : "loading"}
                 </p>
               </div>
               <div className="contact-item">
@@ -74,7 +24,7 @@ export class Contact extends Component {
                   <span>
                     <i className="fa fa-phone"></i> Celular
                   </span>{" "}
-                  {this.props.data ? this.props.data.phone : "loading"}
+                  {this.props.data ? this.props.data.RN.phone : "loading"}
                 </p>
               </div>
               <div className="contact-item">
@@ -82,7 +32,61 @@ export class Contact extends Component {
                   <span>
                     <i className="fa fa-envelope-o"></i> Email
                   </span>{" "}
-                  {this.props.data ? this.props.data.email : "loading"}
+                  {this.props.data ? this.props.data.RN.email : "loading"}
+                </p>
+              </div>
+            </div>
+            <div className="col-md-3 col-md-offset-1 contact-info">
+              <div className="contact-item">
+              <h3>Paraiba</h3>
+                <p>
+                  <span>
+                    <i className="fa fa-map-marker"></i> Endereço
+                  </span>
+                  {this.props.data ? this.props.data.PB.address : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-phone"></i> Celular
+                  </span>{" "}
+                  {this.props.data ? this.props.data.PB.phone : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-envelope-o"></i> Email
+                  </span>{" "}
+                  {this.props.data ? this.props.data.PB.email : "loading"}
+                </p>
+              </div>
+            </div>
+            <div className="col-md-3 col-md-offset-1 contact-info">
+              <div className="contact-item">
+              <h3>Pernambuco</h3>
+                <p>
+                  <span>
+                    <i className="fa fa-map-marker"></i> Endereço
+                  </span>
+                  {this.props.data ? this.props.data.PE.address : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-phone"></i> Celular
+                  </span>{" "}
+                  {this.props.data ? this.props.data.PE.phone : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-envelope-o"></i> Email
+                  </span>{" "}
+                  {this.props.data ? this.props.data.PE.email : "loading"}
                 </p>
               </div>
             </div>
@@ -91,20 +95,8 @@ export class Contact extends Component {
                 <div className="social">
                   <ul>
                     <li>
-                      <a
-                        href={this.props.data ? this.props.data.facebook : "/"}
-                      >
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.youtube : "/"}>
-                        <i className="fa fa-youtube"></i>
+                      <a href={this.props.data ? this.props.data.instagram : "/"} target='blank'>
+                        <i className="fa fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -116,7 +108,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 CGWeb {" "}
+              Desenvolvimento: &copy;2020 CGWeb Solutions {" "}
             </p>
           </div>
         </div>
