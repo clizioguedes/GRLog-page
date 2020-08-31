@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
 export class about extends Component {
-  render() {
+  render () {
     return (
-        <div id="about">
+      <div id="about">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-md-6"> <img src="img/logo.png" className="img-responsive" alt=""/> </div>
+            <div className="col-xs-12 col-md-6"> <img src="img/logo_png_v2.png" className="img-responsive" alt="" /> </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
                 <h2>Sobre Nós</h2>
