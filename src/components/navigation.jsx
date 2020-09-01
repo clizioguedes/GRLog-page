@@ -31,7 +31,7 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
             <li>
-                <a href="http://grlogrn.ddns.net:9091" target='blank'>
+                <a href="http://189.124.207.245:9090/" target='blank'>
                   Rastreamento
                 </a>
               </li>
