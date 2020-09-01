@@ -22,7 +22,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-phone"></i> Celular
+                    <i className="fa fa-phone"></i> Telefone
                   </span>{" "}
                   {this.props.data ? this.props.data.RN.phone : "loading"}
                 </p>
@@ -38,7 +38,7 @@ export class Contact extends Component {
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
               <div className="contact-item">
-              <h3>Paraiba</h3>
+              <h3>Paraíba</h3>
                 <p>
                   <span>
                     <i className="fa fa-map-marker"></i> Endereço
@@ -49,7 +49,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-phone"></i> Celular
+                    <i className="fa fa-phone"></i> Telefone
                   </span>{" "}
                   {this.props.data ? this.props.data.PB.phone : "loading"}
                 </p>
@@ -76,7 +76,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-phone"></i> Celular
+                    <i className="fa fa-phone"></i> Telefone
                   </span>{" "}
                   {this.props.data ? this.props.data.PE.phone : "loading"}
                 </p>

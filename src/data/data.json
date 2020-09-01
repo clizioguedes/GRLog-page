@@ -5,7 +5,20 @@
         "paragraph": "Transportadora de Cargas especializada em Armazenagem e Distribuição de alimentos."
     },
     "About": {
-        "paragraph": "A GRLog transportes está desde 2010 no mercado atuando com armazenagem e distribuição de mercadorias. Operando com uma frota própria de 19 veículos entre carretas, caminhão truck e caminhão ¾. Atuando no Rio Grande do Norte e na Paraíba com especialidade em logística de alimentos."
+        "paragraph": "A GRLog transportes está desde 2010 no mercado atuando com armazenagem e distribuição de mercadorias. Operando com uma frota própria de 19 veículos entre carretas, caminhão truck e caminhão ¾. Atuando no Rio Grande do Norte, Paraíba e Pernambuco com especialidade em logística de alimentos e transporte de cargas fracionadas. ",
+        "missao": [
+            "Atuar como parceiro estratégico em logística, agregando valor a operação de nossos clientes através de um serviço de qualidade."
+        ],
+        "visao": [
+            "Ser referência em serviço de transportes e logística, superando todas as expectativas dos nossos clientes."
+        ],
+        "valores": [
+            "Pontualidade",
+            "Confiabilidade",
+            "Ética",
+            "Respeito",
+            "Sustentabilidade"
+        ]
     },
     "Contact": {
         "RN": {
@@ -36,7 +49,7 @@
         },
         {
             "icon": "fa fa-comments-o",
-            "title": "Logistica Rápida e Segura",
+            "title": "Logística Rápida e Segura",
             "text": "Oferecemos todo o suporte do inicio da Coleta até a entrega"
         },
         {
