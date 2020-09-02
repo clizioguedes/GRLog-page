@@ -3,9 +3,6 @@ import Navigation from './navigation';
 import Header from './header';
 import Features from './features';
 import About from './about';
-import Gallery from './gallery';
-import Testimonials from './testimonials';
-import Team from './Team';
 import Contact from './contact';
 import $ from 'jquery';
 import { Orcamento } from './orcamento';
@@ -36,7 +33,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Navigation />
+        <Navigation data={this.state.resumeData.Navigation} />
         <Header data={this.state.resumeData.Header}/>
         <Features data={this.state.resumeData.Features}/>
         <Orcamento data={this.state.resumeData.Orcamento} />

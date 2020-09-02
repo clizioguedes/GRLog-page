@@ -45,12 +45,12 @@
         {
             "icon": "fa fa-truck",
             "title": "Frota Própria",
-            "text": "Alguns de nossos veiculos são: VM 270, VW 19.360, MB 1620 e VW 9.170"
+            "text": "Com toda frota monitorada por um sistema de rastreamento on-line que proporciona segurança e integridade da carga."
         },
         {
             "icon": "fa fa-comments-o",
             "title": "Logística Rápida e Segura",
-            "text": "Oferecemos todo o suporte do inicio da Coleta até a entrega"
+            "text": "Oferecemos todo suporte ao cliente desde a coleta até a entrega. Toda carga transportada é assegurada pela Porto Seguro."
         },
         {
             "icon": "fa fa-pie-chart",
@@ -59,8 +59,11 @@
         },
         {
             "icon": "fa fa-shield",
-            "title": "Trabalhamos com Cross Docking",
-            "text": "Reduzimos seu Tempo e seus custos oferecendo as melhores formas de transporte"
+            "title": "Serviço de Cross Docking",
+            "text": "Oferecemos uma equipe especializada desde a coleta, separação e entrega de mercadorias para redução de custo do nosso cliente."
         }
-    ]
+    ],
+    "Navigation": {
+        "linkRastreio": "http://189.124.207.245:9090"
+    }
 }

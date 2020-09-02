@@ -1,6 +1,7 @@
 {
   "name": "landingpage-react-template",
   "private": true,
+  "homepage": "http://www.grlogtrans.com.br",
   "engines": {
     "node": "12.18.2",
     "npm": "6.14.5"

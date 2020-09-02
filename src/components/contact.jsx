@@ -30,7 +30,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email
+                    <i className="fa fa-envelope-o"></i> E-mail
                   </span>{" "}
                   {this.props.data ? this.props.data.RN.email : "loading"}
                 </p>
@@ -57,7 +57,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email
+                    <i className="fa fa-envelope-o"></i> E-mail
                   </span>{" "}
                   {this.props.data ? this.props.data.PB.email : "loading"}
                 </p>
@@ -84,7 +84,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email
+                    <i className="fa fa-envelope-o"></i> E-mail
                   </span>{" "}
                   {this.props.data ? this.props.data.PE.email : "loading"}
                 </p>
